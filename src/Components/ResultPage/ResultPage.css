@@ -1,0 +1,83 @@
+.resultPage__container {
+  width: 50%;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: transparent;
+  border-radius: 25px;
+  color: #333;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.header {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  width: 80%;
+}
+.header__left {
+  flex: 1;
+}
+.header__left > .name {
+  text-transform: uppercase;
+  margin: 10px 0;
+  font-size: 1.8rem;
+}
+.header__right {
+  margin: 1em 0;
+}
+.contact__info {
+  display: flex;
+}
+.contact__info > h4 {
+  margin: 0 10px;
+}
+.bio__section {
+  margin: 2em 0;
+  display: flex;
+}
+.user__info {
+  flex: 1;
+  margin: 0 0 0 1rem;
+}
+.img_section {
+  flex: 0.2;
+  margin: 0 1rem 0 0;
+}
+.img_section > img {
+  width: 200px;
+}
+.followers__section {
+  display: flex;
+  margin: 1rem auto;
+  width: 50%;
+  padding: 0;
+  text-align: center;
+}
+.followers {
+  flex: 1;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 0 1rem 0 0;
+}
+.following {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 0 0 0 1rem;
+  flex: 1;
+  padding: 0;
+}
+.git_repo__section {
+  display: flex;
+  margin: 1rem auto;
+  width: 50%;
+  padding: 0;
+  text-align: center;
+}
+.public__gits {
+  flex: 1;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 0 1rem 0 0;
+}
+.public__repo {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 0 0 0 1rem;
+  flex: 1;
+  padding: 0;
+}

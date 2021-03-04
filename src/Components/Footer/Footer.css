@@ -1,0 +1,45 @@
+footer {
+  width: 80%;
+  height: 100px;
+  background-color: rgba(151, 150, 150, 0.507);
+  margin: 0 auto;
+  position: sticky;
+  border-radius: 0.5em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+}
+video {
+  border-radius: 999px;
+}
+footer > h1 {
+  margin: auto 0;
+  text-transform: uppercase;
+  font-size: medium;
+  color: aliceblue;
+  filter: drop-shadow(-12px 12px 5px rgba(0, 0, 0, 0.5));
+}
+footer > p {
+  margin: auto 0;
+  display: flex;
+  flex: 0.5;
+  color: aliceblue;
+  filter: drop-shadow(-12px 12px 5px rgba(0, 0, 0, 0.5));
+}
+footer > .social__icons {
+  margin: auto 1em auto 1em;
+  width: 50px;
+  background-color: aliceblue;
+  height: 50px;
+  padding: 10px 0 0 17px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.fa-instagram {
+  color: #405de6;
+}
+.fa-youtube {
+  color: #e62117;
+}
+footer > .social__icons i {
+  font-size: 2em;
+}

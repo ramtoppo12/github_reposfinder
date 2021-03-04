@@ -1,0 +1,29 @@
+.search__bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search__bar > input {
+  width: 350px;
+  background-color: transparent;
+  height: 50px;
+  outline: transparent;
+  border-color: rgb(151, 150, 150);
+  font-size: 1em;
+  font-weight: 900;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 0 0 0 1em;
+}
+.search__bar > button {
+  width: 60px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.search__bar > button i {
+  font-size: 2em;
+}
